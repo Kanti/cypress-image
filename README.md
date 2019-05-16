@@ -18,5 +18,5 @@ Cypress image with build in cypress (unzipped) ready to use
     script:
      - composer install
      - php -S 0.0.0.0:80 &
-     - docker run --rm -it -v $(pwd)/cypress/:/app/cypress/ -v $(pwd)/cypress.json:/app/cypress.json kanti/cypress
+     - docker run --rm -i -v $(pwd)/cypress/:/app/cypress/ -v $(pwd)/cypress.json:/app/cypress.json kanti/cypress
 ````
